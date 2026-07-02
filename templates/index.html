@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiCrop</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">OptiCrop</div>
+    <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#predict">FindYourCrop</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <div class="overlay">
+        <h1 class="hero-title">OptiCrop Agricultural Optimisation</h1>
+        <p class="hero-text">
+            The main purpose of OptiCrop is to develop a system that uses
+            data-driven insights to optimize agricultural production.
+        </p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <div class="about-container">
+
+        <!-- LEFT TEXT -->
+        <div class="about-text">
+            <h2>Smart Agricultural Optimization Using Machine Learning</h2>
+
+            <p>
+                OptiCrop is an intelligent crop recommendation system designed
+                to assist farmers in selecting the most suitable crops based on
+                soil nutrients, environmental conditions, and climate data.
+            </p>
+
+            <p>
+                By analyzing parameters such as Nitrogen (N), Phosphorus (P),
+                Potassium (K), temperature, humidity, pH, and rainfall,
+                OptiCrop uses machine learning models to provide accurate
+                and reliable crop suggestions.
+            </p>
+
+            <p>
+                This helps in improving productivity, reducing resource waste,
+                and enabling data-driven agricultural decisions for sustainable farming.
+            </p>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="about-image">
+            <img src="/static/about-farm.png" alt="Smart Farming">
+        </div>
+
+    </div>
+</section>
+
+<!-- FIND YOUR CROP -->
+<section id="predict" class="predict">
+    <div class="card">
+        <h2 class="title">Find Your Crop</h2>
+        <p class="subtitle">Enter soil and climate variables to identify the optimal crop.</p>
+
+        <form id="predictionForm">
+
+            <div class="row">
+                <div class="col">
+                    <label>Nitrogen</label>
+                    <input type="number" id="N" required>
+                </div>
+                <div class="col">
+                    <label>Phosphorus</label>
+                    <input type="number" id="P" required>
+                </div>
+                <div class="col">
+                    <label>Potassium</label>
+                    <input type="number" id="K" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Temperature (°C)</label>
+                    <input type="number" id="temperature" required>
+                </div>
+                <div class="col">
+                    <label>Humidity (%)</label>
+                    <input type="number" id="humidity" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>pH</label>
+                    <input type="number" id="ph" required>
+                </div>
+                <div class="col">
+                    <label>Rainfall (mm)</label>
+                    <input type="number" id="rainfall" required>
+                </div>
+            </div>
+
+            <button type="submit">Identify Best Crop</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+</section>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
