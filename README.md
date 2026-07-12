@@ -2,6 +2,13 @@
 
 Machine Learning based crop recommendation system.
 
+## 🎥 Demo
+
+Watch the project demo here:
+
+[▶️ Demo Video](https://drive.google.com/file/d/1qY2nBee2-gaIIvJ_j6LxRx_BeXOMWG98/view?usp=sharing)
+
+
 ## Overview
 
 OptiCrop predicts the most suitable crop based on soil and environmental conditions.
