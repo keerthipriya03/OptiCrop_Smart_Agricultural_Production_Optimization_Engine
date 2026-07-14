@@ -6,7 +6,7 @@ Machine Learning based crop recommendation system.
 
 Watch the project demo here:
 
-[▶️ Demo Video](https://drive.google.com/file/d/1qY2nBee2-gaIIvJ_j6LxRx_BeXOMWG98/view?usp=sharing)
+[▶️ Demo Video](https://drive.google.com/file/d/1b6ItmVjhwyMLTOmdp6lgZKtaNE-lwnXv/view?usp=drivesdk)
 
 
 ## Overview
